@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>floral</title>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/jquery-ui.css"/>
+    <link rel="stylesheet" href="css/headfoot.css"/>
+    <link rel="stylesheet" href="css/nav.css"/>
+    <link rel="stylesheet" href="css/usercenter.css">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+<!--头部-->
+<header id="top" class="w1211">
+
+</header>
+<!--导航-->
+<div id="nav" class="main-nav-box" style="margin-top: 130px; height:50px;">
+
+</div>
+<div id="main" class="w1211" style="margin-top:30px;">
+    <div class="affix">
+        <h4>用户中心</h4>
+        <ul>
+            <li class="active"><a href="#my-order-container">我的订单</a></li>
+            <li><a href="#buy-stat-container">消费统计(Canvas版)</a></li>
+            <li><a href="#buy-stat-container-svg">消费统计(SVG版)</a></li>
+            <li><a href="#luck-lottery-container">幸运抽奖</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <!-- 我的订单 -->
+        <div class="active"  id="my-order-container">
+            <table id="order-table">
+                <thead>
+                <tr>
+                    <th>订单信息</th>
+                    <th>收货人</th>
+                    <th>订单金额</th>
+                    <th>
+                        <!--<select id="">-->
+                            <!--<option value="m1">最近一个月</option>-->
+                            <!--<option value="m3">最近三个月</option>-->
+                            <!--<option value="m6">最近半年</option>-->
+                        <!--</select>-->
+                        订单时间
+                    </th>
+                    <th>
+                        <!--<select id="">-->
+                            <!--<option value="0">全部状态</option>-->
+                            <!--<option value="1">等待付款</option>-->
+                            <!--<option value="2">派货中</option>-->
+                            <!--<option value="3">订单完成</option>-->
+                        <!--</select>-->
+                        订单状态
+                    </th>
+                    <th>操作</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td colspan="6">
+                        订单编号：24317346234
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="#"><img src="img/show-right/show%20(1).jpg" width="28"/></a>
+                    </td>
+                    <td>18628996429</td>
+                    <td>￥325.5<br>在线支付</td>
+                    <td>2015-10-25<br>10:25:33</td>
+                    <td>等待发货</td>
+                    <td>
+                        <a href="#">查看</a><br>
+                        <a href="#">取消订单</a><br>
+                        <a href="#">确认收货</a><br>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <!-- 分页条 -->
+            <ul class="pager">
+                <!--<li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li class="active"><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>-->
+            </ul>
+        </div>
+        <!-- 消费统计(原生Canvas版) -->
+        <div id="buy-stat-container">
+            <canvas id="canvas-buy-stat">
+                您的浏览器不支持Canvas绘图！
+            </canvas>
+        </div>
+        <!-- 消费统计(SVG版) -->
+        <div id="buy-stat-container-svg">消费统计(FC版)</div>
+        <!-- 幸运抽奖 -->
+        <div id="luck-lottery-container">
+            <button id="bt-lottery" type="button" disabled>正在加载抽奖统计信息...</button> <br><br>
+            <canvas id="canvas-lottery"></canvas>
+        </div>
+    </div>
+</div>
+<!--尾部-->
+<footer id="footer" style="margin-top: 50px;">
+
+</footer>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/usercenter.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>floral-用户登录</title>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/headfoot.css"/>
+    <link rel="stylesheet" href="css/login.css"/>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <style>
+        /*hidden head-top*/
+        #top{
+            border: 0;
+        }
+        #top_box{
+            display:none;
+        }
+        .main-top-box{
+            padding:50px;
+        }
+    </style>
+</head>
+<body>
+<!--头部-->
+<header id="top" class="w1211">
+
+</header>
+
+<!--内容-->
+<div class="main">
+    <div class="login-box">
+        <div class="login-bg">
+            <div class="w1211 over-f">
+                <div class="login-container flo-r">
+                    <div class="login-title">
+                        <ul class="over-f">
+                            <li class="login-title1"><a href="login.html">登录</a></li>
+                            <li><a href="register.html" target="_self">注册</a></li>
+                        </ul>
+                    </div>
+                    <form action="" id="login-user-form">
+                        <div class="userName-group">
+                            <input type="text" placeholder="用户名 / 手机号码" required autofocus  class="log-txt sj" name="uname" id="userName" autocomplete="off" data-form-un="1493863079988.394" value="18628996429">
+                        </div>
+                        <div class="userPwd-group">
+                            <b class="log-sign"></b>
+                            <input type="password" placeholder="密码" required autofocus class="log-txt mm" autocomplete="off" name="upwd" id="passWord" data-form-pw="1493863079988.394" value="123456">
+                        </div>
+                        <div class="remeberPwd-group">
+                            <input type="checkbox" name="auto-login" class="auto-login" value="1"/>记住密码
+                            <span class="register-now flo-r"><a href="register.html" target="_self">还不是会员，立即注册</a></s></span>
+                        </div>
+                        <div class="login-now">
+                            <input id="login" type="button" value="立即登录" class="submit-log" data-form-sbm="1493863079988.394" style="pointer-events: auto;">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--尾部-->
+<footer id="footer" style="margin-top: 50px;">
+    <div class="footer-box">
+
+    </div>
+</footer>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/login.js"></script>
+</body>
+</html>

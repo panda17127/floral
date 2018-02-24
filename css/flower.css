@@ -1,0 +1,204 @@
+/*鲜花的展示页面，包括各类鲜花，多肉绿植*/
+.bread-crumb{
+    height: 40px;
+    line-height: 40px;
+    font-size:14px;
+}
+.bread-crumb>a{
+    font-weight: 400;
+}
+
+/*商品查询分类*/
+.category{
+    margin:10px 0;
+    width:100%;
+}
+.category-box{
+    width:100%;
+    min-height:100px;
+    border:2px solid #bbb;
+}
+.category-list{
+    margin-top:12px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #ddd;
+}
+.category-name{
+    width:70px;
+    text-align: center;
+}
+.category-content{
+    width:1141px;
+}
+.category-content>a{
+    padding-left:10px;
+}
+/*热销商品*/
+.flower-show{
+    width:100%;
+    min-height: 500px;
+    margin-top:20px;
+}
+.fs-left{
+    width:210px;
+    min-height:400px;
+    border:1px solid #aaa;
+    background: #ffffff;
+}
+.hotsale-head{
+    font-size:14px;
+    width:100%;
+    height:30px;
+    line-height:30px;
+    background:#988BDE;
+    color:#fff;
+    text-align:center;
+}
+
+.hotsale-list{
+    width:100%;
+    height:280px;
+    border-bottom: 1px solid #ccc;
+}
+.hot-title{
+    padding:5px 10px;
+    line-height:20px;
+}
+.hot-price{
+    color:#796CC2;
+}
+.price-num{
+    font-size:16px;
+}
+
+/*右边商品展示*/
+.fs-right{
+    width:960px;
+    min-height:800px;
+    border:1px solid #bbb;
+    background: #fff;
+}
+.order{
+    width:100%;
+    height:30px;
+    line-height:30px;
+    background: #d5d5d5;
+    padding-left: 10px;
+}
+.order-list{
+   float: left;
+}
+#order a.hover{
+    color: #FE4A00;
+    background: #eee;
+}
+.order-list>a{
+    padding:1px 15px;
+    border:1px solid #aaa;
+}
+.order-sign{
+    display: inline-block;
+    width:7px;
+    height:10px;
+    background-image: url("../img/order-down.png");
+    margin-left:2px;
+}
+.pager{
+    width:140px;
+}
+.total-page{
+    margin-right: 5px;
+}
+.pager>li{
+    float: left;
+}
+.disabled>a{
+    padding: 2px 15px;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    background-color: #fff;
+}
+.disabled>a:hover{
+    background: #eee;
+}
+.menu-left{
+    width:14px;
+    height:14px;
+    display: inline-block;
+    margin-bottom: -3px;
+    background: url("../img/left-one.png") no-repeat;
+}
+.menu-right{
+    width:14px;
+    height:14px;
+    display: inline-block;
+    margin-bottom: -3px;
+    background: url("../img/right-two.png") no-repeat;
+}
+/*商品展示*/
+.fs-container{
+    padding:10px;
+}
+.fs-list{
+    float: left;
+    width:225px;
+    min-height:300px;
+    margin:0 10px 10px 0;
+}
+.li-div-box{
+    border:1px solid #eee;
+}
+.li-div-border{
+    border: 3px solid #fff;
+}
+.fs-list:hover .li-div-border{
+    border: 3px solid #796CC2;
+}
+/*图片文字*/
+.fs-content{
+    padding:10px;
+}
+.fs-content>p{
+    margin-bottom: 15px;
+}
+.fs-content-name{
+    height:25px;
+    line-height:25px;
+}
+.price-sale{
+    color:#796CC2;
+}
+.salenum{
+    line-height: 30px;
+}
+.join-cart{
+    width:80px;
+    text-align: center;
+    height:30px;
+    line-height: 30px;
+    background: #8D80D6;
+    color: #fff;
+    border-radius: 5px;
+}
+.join-cart:hover{
+    color: #fff;
+    background: #A194EA;
+    cursor: pointer;
+}
+
+/*页码*/
+.big-pager>ul{
+    width:200px;
+    margin: 20px auto;
+    height:22px;
+    line-height: 23px;
+}
+.big-pager-list{
+    float:left;
+    margin-right:20px;
+}
+.show{
+    padding:0 10px;
+    background: #A194EA;
+    color:#fff;
+}

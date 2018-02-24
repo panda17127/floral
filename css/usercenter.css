@@ -1,0 +1,74 @@
+#main{
+    min-height: 500px;
+
+}
+#main .affix {
+    box-sizing: border-box;
+    width: 210px;
+    float: left;
+    padding: 15px;
+}
+.affix h4 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+.affix ul li{
+    padding: 5px 20px;
+}
+.affix ul li.active a{
+    color: #e4393c;
+    font-weight: bold;
+}
+#main .container {
+    box-sizing: border-box;
+    margin-left: 210px;
+    padding: 15px;
+}
+#main .container > div {
+    display: none;
+}
+#main .container > div.active {
+    display: block;
+}
+
+#order-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+#order-table thead tr {
+    background: #e7e7e7;
+}
+#order-table tbody tr:nth-child(odd) {
+    background: #f5f5f5;
+}
+#order-table tbody tr:nth-child(even) {
+    background: #fff;
+}
+#order-table th,
+#order-table td {
+    padding: 6px 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+#order-table tbody tr:nth-child(odd) td,
+#order-table tbody tr:nth-child(even) td:nth-child(1){
+    text-align: left;
+}
+#order-table tbody tr:nth-child(even) td:nth-child(1) img{
+    padding: 3px;
+    border: 1px solid #eee;
+}
+#order-table tbody tr:nth-child(odd) a {
+    margin-left: 50px;
+}
+
+/**��ҳ��**/
+
+
+#luck-lottery-container {
+    text-align: center;
+}
+#bt-lottery {
+    padding: 6px 15px;
+}
